@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carta | C.D.E. Montesión</title>
+  <meta name="robots" content="noindex">
+  <script>
+    (function () {
+      var supported = ["es", "ca", "en"];
+      var stored = null;
+      try { stored = localStorage.getItem("montesion-lang"); } catch (e) {}
+      var chosen = stored && supported.indexOf(stored) !== -1 ? stored : null;
+      if (!chosen) {
+        var langs = navigator.languages || [navigator.language || "es"];
+        for (var i = 0; i < langs.length; i++) {
+          var code = String(langs[i]).toLowerCase().slice(0, 2);
+          if (supported.indexOf(code) !== -1) { chosen = code; break; }
+        }
+      }
+      if (!chosen) chosen = "es";
+      location.replace("/" + chosen + "/carta.html");
+    })();
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/es/carta.html"></noscript>
+</head>
+<body>
+  <p><a href="/es/carta.html">Carta</a></p>
+</body>
+</html>

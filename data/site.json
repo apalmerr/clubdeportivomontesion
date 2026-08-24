@@ -1,0 +1,34 @@
+{
+  "name": {
+    "es": "Club Deportivo Esports Montesión",
+    "ca": "Club Deportiu Esports Montesión",
+    "en": "Club Deportivo Esports Montesión"
+  },
+  "shortName": "C.D.E. Montesión",
+  "address": {
+    "street": "Carrer d'Andalusia, Ponent",
+    "postalCode": "07013",
+    "city": "Palma",
+    "region": "Illes Balears",
+    "country": "España",
+    "mapsUrl": "https://maps.google.com/?q=Carrer+d%27Andalusia,+Ponent,+07013+Palma"
+  },
+  "phone": {
+    "display": "657 16 93 32",
+    "e164": "+34657169332"
+  },
+  "whatsapp": {
+    "bar": "+34657169332",
+    "pistas": "+34657169332",
+    "note": "TODO: separar números de WhatsApp bar y pistas cuando los tengáis"
+  },
+  "instagram": {
+    "handle": "@montesion26",
+    "url": "https://www.instagram.com/montesion26/"
+  },
+  "playtomic": "https://playtomic.com/es/clubs/club-deportivo-esports-montesion",
+  "email": null,
+  "cif": null,
+  "hours": null,
+  "socialNote": "Hasta que haya email corporativo, el contacto principal es teléfono / WhatsApp / Instagram."
+}

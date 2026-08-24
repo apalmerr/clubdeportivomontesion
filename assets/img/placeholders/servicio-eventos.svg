@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img">
+  <rect width="800" height="500" fill="#e8eef5"/>
+  <rect x="0" y="0" width="800" height="8" fill="#00204a"/>
+  <text x="40" y="260" fill="#00204a" font-family="Georgia, serif" font-size="42" font-weight="700">Eventos</text>
+  <text x="40" y="310" fill="#4a5d73" font-family="system-ui, sans-serif" font-size="22">Placeholder · sustituir por foto real</text>
+</svg>

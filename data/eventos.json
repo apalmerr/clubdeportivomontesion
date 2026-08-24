@@ -1,0 +1,60 @@
+{
+  "slides": [
+    {
+      "id": "slide-1",
+      "image": "/assets/img/placeholders/evento-1.svg",
+      "alt": {
+        "es": "Instalaciones del club",
+        "ca": "Instal·lacions del club",
+        "en": "Club facilities"
+      },
+      "caption": {
+        "es": "Vive el club",
+        "ca": "Viu el club",
+        "en": "Experience the club"
+      }
+    },
+    {
+      "id": "slide-2",
+      "image": "/assets/img/placeholders/evento-2.svg",
+      "alt": {
+        "es": "Pistas de pádel",
+        "ca": "Pistes de pàdel",
+        "en": "Padel courts"
+      },
+      "caption": {
+        "es": "Pádel en Palma",
+        "ca": "Pàdel a Palma",
+        "en": "Padel in Palma"
+      }
+    },
+    {
+      "id": "slide-3",
+      "image": "/assets/img/placeholders/evento-3.svg",
+      "alt": {
+        "es": "Bar del club",
+        "ca": "Bar del club",
+        "en": "Club bar"
+      },
+      "caption": {
+        "es": "Bar & terraza",
+        "ca": "Bar i terrassa",
+        "en": "Bar & terrace"
+      }
+    },
+    {
+      "id": "slide-4",
+      "image": "/assets/img/placeholders/evento-4.svg",
+      "alt": {
+        "es": "Vóley y eventos",
+        "ca": "Vòlei i esdeveniments",
+        "en": "Volleyball and events"
+      },
+      "caption": {
+        "es": "Deporte y eventos",
+        "ca": "Esport i esdeveniments",
+        "en": "Sport and events"
+      }
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "updated": "2026-08-24",
+  "currency": "€",
+  "sections": [
+    {
+      "id": "picoteo",
+      "title": { "es": "Picoteo", "ca": "Pica-pica", "en": "Snacks" },
+      "items": [
+        {
+          "name": { "es": "Croquetas surtidas", "ca": "Croquetes surtides", "en": "Assorted croquettes" },
+          "price": 7.5
+        },
+        {
+          "name": { "es": "Nachos Club", "ca": "Nachos Club", "en": "Club nachos" },
+          "desc": {
+            "es": "Miel, sobrasada, queso y wakamole",
+            "ca": "Mel, sobrassada, formatge i wakamole",
+            "en": "Honey, sobrasada, cheese and wakamole"
+          },
+          "price": 7.5
+        },
+        {
+          "name": { "es": "Patatas fritas", "ca": "Patates fregides", "en": "French fries" },
+          "price": 4
+        },
+        {
+          "name": { "es": "Boniato frito", "ca": "Moniato fregit", "en": "Fried sweet potato" },
+          "price": 4.5
+        }
+      ]
+    },
+    {
+      "id": "cenas",
+      "title": { "es": "Cenas", "ca": "Sopars", "en": "Dinner" },
+      "groups": [
+        {
+          "id": "pambolis",
+          "title": { "es": "Pambolis", "ca": "Pambolis", "en": "Pambolis" },
+          "note": {
+            "es": "Precio por rebanada",
+            "ca": "Preu per llesca",
+            "en": "Price per slice"
+          },
+          "items": [
+            {
+              "name": {
+                "es": "Serrano, York, Chorizo, Queso, Atún, Sobrasada…",
+                "ca": "Serrà, York, Xoriço, Formatge, Tonyina, Sobrassada…",
+                "en": "Serrano, ham, chorizo, cheese, tuna, sobrasada…"
+              },
+              "price": 4.5
+            },
+            {
+              "name": { "es": "Aguacate", "ca": "Alvocat", "en": "Avocado" },
+              "price": 5.5
+            },
+            {
+              "name": {
+                "es": "Salmón y wakamole",
+                "ca": "Salmó i wakamole",
+                "en": "Salmon and wakamole"
+              },
+              "price": 6.5
+            }
+          ]
+        },
+        {
+          "id": "pizza",
+          "title": { "es": "Pizza", "ca": "Pizza", "en": "Pizza" },
+          "items": [
+            {
+              "name": {
+                "es": "York queso / Margarita",
+                "ca": "York formatge / Margarita",
+                "en": "Ham & cheese / Margherita"
+              },
+              "desc": {
+                "es": "+1€ por ingrediente extra",
+                "ca": "+1€ per ingredient extra",
+                "en": "+€1 per extra topping"
+              },
+              "price": 10.9
+            }
+          ]
+        },
+        {
+          "id": "pokes",
+          "title": { "es": "Pokes", "ca": "Pokes", "en": "Poke bowls" },
+          "note": {
+            "es": "Arroz blanco/quinoa, wakame, aguacate, mango, brotes de soja y cebolla crispy",
+            "ca": "Arròs blanc/quinoa, wakame, alvocat, mango, brots de soja i ceba crispy",
+            "en": "White rice/quinoa, wakame, avocado, mango, soybean sprouts and crispy onion"
+          },
+          "items": [
+            {
+              "name": { "es": "De salmón", "ca": "De salmó", "en": "Salmon" },
+              "price": 11.9
+            },
+            {
+              "name": {
+                "es": "De pollo crujiente",
+                "ca": "De pollastre cruixent",
+                "en": "Crispy chicken"
+              },
+              "price": 10.9
+            },
+            {
+              "name": { "es": "De atún", "ca": "De tonyina", "en": "Tuna" },
+              "price": 9.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wraps",
+      "title": { "es": "Wraps", "ca": "Wraps", "en": "Wraps" },
+      "note": {
+        "es": "Philadelphia, tomate, lechuga, mango, aguacate, cebolla crispy y salsa miel-mostaza",
+        "ca": "Philadelphia, tomàquet, enciam, mango, alvocat, ceba crispy i salsa mel-mostassa",
+        "en": "Philadelphia, tomato, lettuce, mango, avocado, crispy onion and honey-mustard sauce"
+      },
+      "items": [
+        {
+          "name": { "es": "De salmón", "ca": "De salmó", "en": "Salmon" },
+          "price": 10.9
+        },
+        {
+          "name": {
+            "es": "De pollo crujiente",
+            "ca": "De pollastre cruixent",
+            "en": "Crispy chicken"
+          },
+          "price": 9.9
+        }
+      ]
+    },
+    {
+      "id": "burger",
+      "title": { "es": "Burger Club", "ca": "Burger Club", "en": "Club Burger" },
+      "note": {
+        "es": "Pan brioche · Patatas incluidas",
+        "ca": "Pa brioche · Patates incloses",
+        "en": "Brioche bun · Fries included"
+      },
+      "items": [
+        {
+          "name": {
+            "es": "Ternera nacional (200 g), tomate, lechuga, bacon, cebolla crispy, queso de cabra y mermelada de tomate",
+            "ca": "Vedella nacional (200 g), tomàquet, enciam, bacon, ceba crispy, formatge de cabra i melmelada de tomàquet",
+            "en": "Spanish beef (200 g), tomato, lettuce, bacon, crispy onion, goat cheese and tomato jam"
+          },
+          "price": 14.9
+        }
+      ]
+    },
+    {
+      "id": "frankfurt",
+      "title": { "es": "Frankfurt Club", "ca": "Frankfurt Club", "en": "Club Hot Dog" },
+      "note": {
+        "es": "Pan brioche · Patatas +2€",
+        "ca": "Pa brioche · Patates +2€",
+        "en": "Brioche bun · Fries +€2"
+      },
+      "items": [
+        {
+          "name": {
+            "es": "Cebolla crispy y salsa burger",
+            "ca": "Ceba crispy i salsa burger",
+            "en": "Crispy onion and burger sauce"
+          },
+          "price": 6.9
+        }
+      ]
+    }
+  ]
+}
