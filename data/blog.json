@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "bienvenida",
+      "date": "2026-08-01",
+      "slug": "bienvenida",
+      "image": "/assets/img/placeholders/blog-1.svg",
+      "title": {
+        "es": "Bienvenida a la web del club",
+        "ca": "Benvinguda a la web del club",
+        "en": "Welcome to the club website"
+      },
+      "excerpt": {
+        "es": "Estrenamos web para que reserves pista, consultes la carta del bar y te enteres de novedades.",
+        "ca": "Estrenem web perquè reservis pista, consultis la carta del bar i et enteris de novetats.",
+        "en": "Our new website is live so you can book courts, check the bar menu, and follow club news."
+      }
+    },
+    {
+      "id": "como-reservar",
+      "date": "2026-08-15",
+      "slug": "como-reservar-pista",
+      "image": "/assets/img/placeholders/blog-2.svg",
+      "title": {
+        "es": "Cómo reservar pista de pádel",
+        "ca": "Com reservar pista de pàdel",
+        "en": "How to book a padel court"
+      },
+      "excerpt": {
+        "es": "Te explicamos las formas más rápidas de reservar: Playtomic, WhatsApp o llamada.",
+        "ca": "T'expliquem les maneres més ràpides de reservar: Playtomic, WhatsApp o trucada.",
+        "en": "The fastest ways to book: Playtomic, WhatsApp, or a phone call."
+      }
+    }
+  ]
+}

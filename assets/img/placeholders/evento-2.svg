@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img">
+  <defs>
+    <linearGradient id="g" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#001833"/>
+      <stop offset="100%" stop-color="#1a4f86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect x="180" y="220" width="280" height="170" rx="8" fill="none" stroke="#fff" stroke-width="4" opacity="0.85"/>
+  <rect x="500" y="220" width="280" height="170" rx="8" fill="none" stroke="#fff" stroke-width="4" opacity="0.85"/>
+  <rect x="820" y="220" width="200" height="170" rx="8" fill="none" stroke="#fff" stroke-width="4" opacity="0.5"/>
+  <text x="80" y="520" fill="#fff" font-family="Georgia, serif" font-size="56" font-weight="700">Pádel</text>
+  <text x="80" y="575" fill="#c8d7ea" font-family="system-ui, sans-serif" font-size="28">Reserva en Playtomic</text>
+</svg>
