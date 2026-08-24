@@ -1,12 +1,33 @@
-# Static site — no build step required
+# Sitio estático: publicar la raíz del repo (no dist/)
 [build]
+  command = "exit 0"
   publish = "."
-  command = "echo 'No build step'"
+
+# Redirecciones útiles
+[[redirects]]
+  from = "/menu"
+  to = "/carta/"
+  status = 302
+
+# Si alguien entra a /es sin barra
+[[redirects]]
+  from = "/es"
+  to = "/es/"
+  status = 301
+
+[[redirects]]
+  from = "/ca"
+  to = "/ca/"
+  status = 301
+
+[[redirects]]
+  from = "/en"
+  to = "/en/"
+  status = 301
 
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
@@ -19,8 +40,3 @@
   for = "/data/*"
   [headers.values]
     Cache-Control = "public, max-age=300"
-
-[[redirects]]
-  from = "/menu"
-  to = "/carta/"
-  status = 302
