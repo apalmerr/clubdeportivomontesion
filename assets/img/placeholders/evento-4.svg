@@ -8,6 +8,6 @@
   <rect width="1200" height="675" fill="url(#g)"/>
   <path d="M200 420c80-120 200-120 280 0 80-120 200-120 280 0" fill="none" stroke="#fff" stroke-width="6" opacity="0.7"/>
   <circle cx="340" cy="300" r="18" fill="#fff" opacity="0.85"/>
-  <text x="80" y="520" fill="#fff" font-family="Georgia, serif" font-size="56" font-weight="700">Vóley &amp; eventos</text>
+  <text x="80" y="520" fill="#fff" font-family="Georgia, serif" font-size="56" font-weight="700">VÃ³ley &amp; eventos</text>
   <text x="80" y="575" fill="#c8d7ea" font-family="system-ui, sans-serif" font-size="28">Deporte y celebraciones</text>
 </svg>

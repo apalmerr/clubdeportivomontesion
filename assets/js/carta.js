@@ -13,7 +13,7 @@
     return Number(n).toLocaleString(lang === "en" ? "en-GB" : "es-ES", {
       minimumFractionDigits: Number.isInteger(n) ? 0 : 2,
       maximumFractionDigits: 2
-    }) + "€";
+    }) + "â‚¬";
   }
 
   function itemHtml(item) {
