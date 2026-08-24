@@ -37,11 +37,14 @@ O con Node: `npx --yes serve -l 8080`.
 
 ## Desplegar en Netlify
 
-1. Entra en Netlify → *Add new site* → *Import from Git* → este repositorio.
-2. **Build command:** déjalo vacío o el de `netlify.toml` (`echo 'No build step'`).
-3. **Publish directory:** `.` (raíz).
-4. Publica. Tendrás una URL tipo `algo.netlify.app`.
-5. El QR de las mesas puede apuntar a: `https://TU-DOMINIO/carta/`
+1. Netlify → *Add new site* → *Import from Git* → este repositorio (`main`).
+2. Ajustes de build (importante):
+   - **Base directory:** (vacío)
+   - **Build command:** (vacío) o deja el de `netlify.toml`
+   - **Publish directory:** `.`  ← **NO** uses `dist`, `build` ni `public` (si no, verás *Page not found*)
+3. Deploy. URL tipo `https://algo.netlify.app` y prueba también `https://algo.netlify.app/es/`
+4. Si ya tenías el sitio enlazado con mal publish dir: *Site configuration → Build & deploy → Continuous deployment → Build settings* → edita Publish directory a `.` → *Trigger deploy*.
+5. QR mesas: `https://TU-DOMINIO/carta/`
 
 ## Pendiente para completar la web
 

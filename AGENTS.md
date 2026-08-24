@@ -32,3 +32,4 @@ Open `http://localhost:8080` (root redirects by `navigator.language`, fallback `
 - CIF and email are missing; legal pages show visible TODO callouts.
 - Placeholder SVGs live under `assets/img/placeholders/`; replace with optimized WebP/JPEG when real photos arrive.
 - Floating WhatsApp FAB + cookie banner are in every generated page via `scripts/generate-site.mjs`.
+- **Netlify “Page not found”:** almost always means Publish directory is `dist`/`public`/`build`. Must be `.` (repo root). Local preview: `python3 -m http.server 8080` → `http://127.0.0.1:8080/es/`.
