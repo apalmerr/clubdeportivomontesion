@@ -719,7 +719,7 @@ a:hover {
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-  z-index: 60;
+  z-index: 80;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

@@ -29,7 +29,9 @@
   var fab = qs("[data-fab]");
   var fabMenu = qs("[data-fab-menu]");
   if (fab && fabMenu) {
-    fab.addEventListener("click", function () {
+    fab.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
       var open = fabMenu.classList.toggle("open");
       fab.setAttribute("aria-expanded", open ? "true" : "false");
     });
